@@ -1,11 +1,15 @@
 *{
+    box-sizing: border-box;
     margin:0px;
     padding:0;
+    max-width: 100%;
 }
 body{
     font-family: "Poppins", serif;
 /* width: 80%; */
 width: 100%;
+overflow-x: hidden;
+
 
 }    
 
@@ -14,8 +18,8 @@ width: 100%;
 .navbar{
  display: flex;
  align-items: center;
- margin-left: auto;
- margin-right: auto;
+ /* margin-left: auto;
+ margin-right: auto; */
  padding: 10px;
  justify-content: space-between;
  flex-wrap: wrap;
@@ -27,6 +31,7 @@ width: 100%;
  top: 0; 
  background-color: white;
  margin-left: 5%;
+ 
  
 }
 .navbar__s1__title{
@@ -325,6 +330,7 @@ left: 60%;
 
 /*footer*/
 .footer{
+    width: 100%;
     position: absolute;
 justify-content: space-around;
  left: 0;
@@ -333,6 +339,7 @@ justify-content: space-around;
     padding: 10px;
     background-color: rgb(236, 229, 229);
     color: black;
+    margin-right: 0;
 }
 .footer__sec{
     /* padding-left: 10%; */
